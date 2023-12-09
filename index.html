@@ -5,11 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>background color changer</title>
 </head>
+<style>
+    @font-face {
+        font-family: GreaterVibes;
+        src: url(GreatVibes-Regular.ttf);
+    }
+    button{
+        padding: 5px 20px;
+        margin : 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 2px solid black;
+        background-color: beige;
+        font-size: 15px;
+        
+    }
+</style>
 <body>
-    <h1> background color change in every 1 sec</h1>
-
-    <button id="start">start</button>
-    <button id="stop">stop</button>
+    <div style="height: 100%; width: 100%; display: flex;flex-direction: column; align-items: center; justify-content: center;margin-top: 22%;">
+    <h1 style=" font-family: GreaterVibes;  "> Background color changes in every 1 sec</h1>
+<div>
+    <button id="start">Start</button>
+    <button style=" color: #c80815;" id="stop">Stop</button>
+</div>
+</div>
 </body>
 <script src="random.js"></script>
 </html>
